@@ -1,0 +1,24 @@
+/* universal selector: this will be added to every html element */
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+/* element selector */
+h1{
+    color:green;
+}
+/* selecting an element based on class */
+.heading{
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* selecting an element based on id */
+#p1{
+    color: blanchedalmond;
+    font-size: 20px;
+}
+/* descendant selector */
+.div p{
+    color: blue;
+}

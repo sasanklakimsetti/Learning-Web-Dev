@@ -1,0 +1,21 @@
+/* This is paragraph styling */
+p{
+    color: rgb(221, 222, 228);  
+    /* use rgba for opacity */
+    background-color: #000;
+    /* absolute units */
+    /*width: 20px;*/
+    /* relative units: for better responsiveness */
+    width: 70vw;
+    margin: 0;
+    line-height: 1.2;;
+}
+h1,h2{
+    color:blue;
+}
+div{
+    transform: scale(1.2);
+    transform: rotate(90deg);
+    width: calc(80% - 20px);
+    background-image: url("/assets/small.jpg");
+}
